@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular14-JWT-authentication'`, () => {
+  it(`should have as title 'angular15-JWT-authentication'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular14-JWT-authentication');
+    expect(app.title).toEqual('angular15-JWT-authentication');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular14-JWT-authentication app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('angular15-JWT-authentication app is running!');
   });
 });

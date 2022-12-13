@@ -1,6 +1,6 @@
-# Angular14JWTAuthentication
+# angular15JWTAuthentication
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3. This project is developed to make proper login flow in angular, here implemented with fake-backend for demo purpose.
 
 ## Development server
 
